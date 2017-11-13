@@ -227,6 +227,14 @@ p {
   margin-top: 0;
   margin-bottom: 5px;
 }
+.main-wrapper .project-abstract {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  border:1px solid #f2f2f2;
+  border-radius: 10px;
+  padding: 4px;
+  background-color: #f0f0f0;
+}
 .main-wrapper .projects-section .intro {
   margin-bottom: 30px;
 }
