@@ -6,7 +6,7 @@
  * License: Creative Commons Attribution 3.0 License
  * Website: http://themes.3rdwavemedia.com/
 */
-/* styles.css */
+/* shared.css */
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
@@ -22,7 +22,6 @@ body {
         padding: 0;
     }
 }
-
 h1,
 h2,
 h3,
@@ -32,7 +31,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #2d7788;
+  /*color: #6e3852;*/
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -40,7 +39,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #1a454f;
+  /*color: #3c1e2c;*/
 }
 a:focus {
   text-decoration: none;
@@ -49,7 +48,7 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #42A8C0;
+  /*background: #A15277;*/
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -58,10 +57,10 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #42A8C0;
+  /*background: #A15277;*/
   position: absolute;
   right: 0;
-  width: 280px;
+  width: 240px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -69,11 +68,19 @@ p {
 .sidebar-wrapper a {
   color: #fff;
 }
+/* ========================================================================== */
 .sidebar-wrapper .profile-container {
   padding: 30px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
+}
+.profile-img {
+  max-width: 100px;
+  margin-bottom: 15px;
+  border: 0px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper .name {
   font-size: 32px;
@@ -91,6 +98,7 @@ p {
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
 }
+/* ========================================================================== */
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
   font-size: 18px;
@@ -105,6 +113,7 @@ p {
 .sidebar-wrapper .contact-list .email .fa {
   font-size: 14px;
 }
+/* ========================================================================== */
 .sidebar-wrapper .container-block {
   padding: 30px;
 }
@@ -115,6 +124,7 @@ p {
   margin-top: 0;
   margin-bottom: 15px;
 }
+/* ========================================================================== */
 .sidebar-wrapper .degree {
   font-size: 14px;
   margin-top: 0;
@@ -137,6 +147,7 @@ p {
   font-weight: 500;
   margin-bottom: 0px;
 }
+/* ========================================================================== */
 .sidebar-wrapper .languages-container .lang-desc {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -149,6 +160,7 @@ p {
 .sidebar-wrapper .languages-list li:last-child {
   margin-bottom: 0;
 }
+/* ========================================================================== */
 .sidebar-wrapper .interests-list {
   margin-bottom: 0;
 }
@@ -158,6 +170,7 @@ p {
 .sidebar-wrapper .interests-list li:last-child {
   margin-bottom: 0;
 }
+/* ========================================================================== */
 .main-wrapper {
   background: #fff;
   padding: 60px;
@@ -167,7 +180,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #2d7788;
+  /*color: #6e3852;*/
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -186,7 +199,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2d7788;
+  /*background: #6e3852;*/
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -196,6 +209,7 @@ p {
 .main-wrapper .section {
   margin-bottom: 60px;
 }
+/* ========================================================================== */
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
 }
@@ -221,19 +235,13 @@ p {
   margin-bottom: 10px;
   color: #97AAC3;
 }
-.main-wrapper .project-title {
+/* ========================================================================== */
+.main-wrapper .project-title,
+.main-wrapper .projects-section .item .title {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 400;
   margin-top: 0;
   margin-bottom: 5px;
-}
-.main-wrapper .project-abstract {
-  margin-top: 3px;
-  margin-bottom: 5px;
-  border:1px solid #f2f2f2;
-  border-radius: 10px;
-  padding: 4px;
-  background-color: #f0f0f0;
 }
 .main-wrapper .projects-section .intro {
   margin-bottom: 30px;
@@ -241,6 +249,7 @@ p {
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
+/* ========================================================================== */
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
@@ -256,8 +265,9 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #7bc2d3;
+  /*background: #bf819e;*/
 }
+/* ========================================================================== */
 .footer {
   padding: 30px;
   padding-top: 60px;
@@ -307,27 +317,3 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
-
-/*
-used for profile image
-*/
-.profile-img {
-  max-width: 100px;
-  margin-bottom: 15px;
-  border: 0px solid #fff;
-  border-radius: 100%;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-}
-
-.employment-subheading {
-  font-weight: bold;
-}
-
-.horizontal {
-  text-align: center;
-}
-
-.horizontal li {
-  display: inline;
-  margin-right: 7px;
-}

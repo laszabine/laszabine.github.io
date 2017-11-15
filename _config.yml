@@ -3,7 +3,7 @@ url: 'http://sabine.laszakovits.net'
 baseurl: '' #change it according to your repository name
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-style: styles-1-SL
+style: styles-1
 #style: styles-2
 #style: styles-3
 #style: styles-4
@@ -28,3 +28,11 @@ linkedin: sabine-laszakovits-a2b5696b
 researchgate: Sabine_Laszakovits
 stackexchange-linguistics: 1725/laszabine
 #twitter: '@webjeda'
+
+dalinakallulli: http://homepage.univie.ac.at/dalina.kallulli/
+dianelm: https://lillomartin.linguistics.uconn.edu/
+jdb: http://bobaljik.uconn.edu/
+kseniabogomolets: http://kseniabogomolets.wixsite.com/mysite
+marcindadan: https://marcindadan.com/
+pashakoval: http://www.pkoval.org/
+yongsukyoo: https://sites.google.com/site/usefulstone/
