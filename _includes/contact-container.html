@@ -61,10 +61,28 @@
     </li>
     {% endif %}
 
+    {% if site.keybase %}
+    <li class="github">
+      <a href="https://keybase.io/{{site.keybase}}" target="_blank">
+        <img src="assets/images/keybase-310x310.png" height="18" />
+      </a>
+    </li>
+    {% endif %}
+
+    <!--
     {% if site.stackexchange-linguistics %}
     <li class="github">
       <a href="https://linguistics.stackexchange.com/users/{{site.stackexchange-linguistics}}" target="_blank">
         <i class="fa fa-stack-exchange"></i>
+      </a>
+    </li>
+    {% endif %}
+    //-->
+
+    {% if site.stackoverflow %}
+    <li class="github">
+      <a href="https://stackoverflow.com/users/{{site.stackoverflow}}" target="_blank">
+        <i class="fa fa-stack-overflow"></i>
       </a>
     </li>
     {% endif %}
