@@ -1,0 +1,53 @@
+a {
+  text-decoration: underline;
+}
+/* ========================================================================== */
+.sidebar-wrapper {
+  width: 280px;
+}
+/* ========================================================================== */
+.sidebar-wrapper .contact-container a {
+  text-decoration: none;
+}
+.sidebar-wrapper .horizontal {
+  text-align: center;
+}
+.sidebar-wrapper .horizontal li {
+  display: inline;
+  margin-right: 7px;
+}
+/* ========================================================================== */
+.sidebar-wrapper .news-container .item {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .news-container .item:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .news-container .item .when {
+  font-style: italic;
+}
+.sidebar-wrapper .news-container .item a {
+  text-decoration: underline;
+}
+.sidebar-wrapper .news-container .item .details ul {
+  padding-left: 10px;
+}
+/* ========================================================================== */
+.main-wrapper .projects-section .item .title {
+  font-weight: bold;
+}
+.main-wrapper .projects-section .item .coauthors a {
+  text-decoration: none;
+}
+.main-wrapper .projects-section .item .abstract {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  border:1px solid #f2f2f2;
+  border-radius: 10px;
+  padding: 4px;
+  background-color: #f0f0f0;
+}
+/* ========================================================================== */
+.employment-subheading {
+  font-weight: bold;
+}
