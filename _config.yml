@@ -13,7 +13,7 @@ style: styles-1
 
 #Profile information
 name: Sabine Laszakovits
-tagline: ''
+tagline: 'Computational linguist'
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name here
 
 #sidebar links
