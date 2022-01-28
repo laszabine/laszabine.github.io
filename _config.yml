@@ -1,6 +1,7 @@
 title: Sabine Laszakovits
-url: 'http://sabine.laszakovits.net'
-baseurl: '' #change it according to your repository name
+url: "http://sabine.laszakovits.net"
+baseurl: "" #change it according to your repository name
+analytics: true
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
 style: styles-1
@@ -10,11 +11,10 @@ style: styles-1
 #style: styles-5
 #style: styles-6
 
-
 #Profile information
 name: Sabine Laszakovits
-tagline: 'Computational linguist'
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name here
+tagline: "Computational linguist"
+pic: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name here
 
 #sidebar links
 email: sabine.laszakovits@oeaw.ac.at
