@@ -4,7 +4,12 @@
     {% if site.email %}
     <li class="email">
       <i class="fa fa-envelope"></i>
-      <a href="mailto: {{site.email}}">{{site.email}}</a>
+      <a href="mailto:{{site.email}}">{{site.email}}</a>
+      {% if site.pgp %}
+      <a href="{{site.pgp}}">
+        <i class="fas fa-key"></i>
+      </a>
+      {% endif %}
     </li>
     {% endif %}
 

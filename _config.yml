@@ -19,6 +19,7 @@ pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and pro
 #sidebar links
 email: sabine.laszakovits@oeaw.ac.at
 #phone: 012 345 6789
+pgp: downloads/laszakovits-pgp.asc
 website: sabine.laszakovits.net #do not add http://
 
 academia-uconn: SabineLaszakovits
